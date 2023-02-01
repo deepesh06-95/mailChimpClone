@@ -1,5 +1,4 @@
 {
-  "homepage": "https://deepesh06-95.github.io/mailChimp",
   "name": "mailchimp-clone",
   "version": "1.0.0",
   "description": "React example starter project",
@@ -31,8 +30,6 @@
   },
   "scripts": {
     "dev": "nodemon node cd server/server.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -44,7 +41,5 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
-  }
+  "devDependencies": {}
 }

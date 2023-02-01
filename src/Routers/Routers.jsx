@@ -12,7 +12,7 @@ export default function Routers() {
   return (
     <div>
       <Routes>
-        <Route path="/mailChimp" element={<Homepage />}></Route>
+        <Route path="/" element={<Homepage />}></Route>
         <Route path="/dashboard" element={<DashboardMain />}></Route>
         <Route path="/campaigns" element={<Campaigns />}></Route>
         <Route path="/dashboard/template" element={<Template />}></Route>
